@@ -450,3 +450,141 @@ li.relationships + li.freeforms:before {
 ul.tags li.relationships a {
   color: #7b3b9f;
 }
+
+button,
+.actions a,
+.actions a:link,
+.action,
+input[type="submit"],
+.actions a:visited {
+  color: #7b3b9f;
+  background-color: #ecdff5;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  border: none;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.actions input,
+input[type="submit"],
+textarea {
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: #ecdff5;
+  color: #7b3b9f;
+  border: none;
+  box-shadow: none;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button:hover,
+button:focus {
+  background: #d4afe0;
+  color: #7b3b9f;
+  border: none;
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.listbox .index,
+.dashboard .listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  box-shadow: none;
+}
+
+.actions a:hover,
+a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+#dashboard .current,
+#outer .current,
+#header .current,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover,
+#header .primary .menu .current {
+  border-color: initial;
+  box-shadow: none !important;
+}
+
+.blurb h4.heading a:visited {
+  color: #9b6bbf !important;
+}
