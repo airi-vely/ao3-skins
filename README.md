@@ -4,19 +4,12 @@ ao3 skins that I've made
 
 ---
 
-## Preview
-
-<!-- Add screenshots of your skins here -->
-
-![Purple Bunny](purple-bunny-preview.png)
-
----
-
 ## Skins
 
 ### 🐰 Purple Bunny
 
 A soft blue-grey lavender skin with a bunny pattern background and cream accents.
+![Purple Bunny](purple-bunny-preview.png)
 
 ---
 
@@ -42,6 +35,6 @@ A soft blue-grey lavender skin with a bunny pattern background and cream accents
 
 ## Contact
 
-- Tumblr: [kzhas]
-- AO3: [airively]
-- Twitter: [airiively]
+- Tumblr: [kzhas](https://www.tumblr.com/kzhas)
+- AO3: [airively](https://archiveofourown.org/users/airively)
+- Twitter: [airiively](https://x.com/airiively)
