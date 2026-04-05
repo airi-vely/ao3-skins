@@ -30,8 +30,8 @@
 
 #header .heading {
   margin: 20px 0px 10px 20px;
-  border: 2px solid #b48ec4;
-  background-color: #d4afe0;
+  border: 2px solid #b8b5da;
+  background-color: #d8d6ed;
   border-radius: 20px;
   width: 130px;
   height: 80px;
@@ -39,16 +39,16 @@
 }
 
 #header {
-  background-color: #e8d0f0;
+  background-color: #eceaf7;
   border-radius: 20px;
-  border: 10px solid #b48ec4;
+  border: 10px solid #b8b5da;
   box-shadow: 0 0 4px #000;
 }
 
 #header .primary {
   box-shadow: none;
   background: none;
-  color: #2a0a3a;
+  color: #1a1830;
 }
 
 #header .primary li:first-child {
@@ -59,11 +59,11 @@
 #header .primary li a,
 #greeting li,
 #greeting li a {
-  color: #2a0a3a;
+  color: #1a1830;
 }
 
 #header .heading a {
-  color: #7b3b9f;
+  color: #7a76b8;
   font-size: 0;
   padding: 0;
   height: 100%;
@@ -84,13 +84,13 @@
 #greeting {
   background: none;
   margin-right: 0em;
-  color: #2a0a3a;
+  color: #1a1830;
   padding: 20px;
 }
 
 #greeting li {
   clear: left;
-  border-bottom: 1px dashed #2a0a3a;
+  border-bottom: 1px dashed #1a1830;
   margin-top: 0.3em;
 }
 
@@ -109,13 +109,13 @@
 
 #footer .menu a,
 #footer .menu {
-  color: #2a0a3a;
+  color: #1a1830;
 }
 
 .system .latest h3,
 .splash .module h3,
 .system .tweets h3 {
-  color: #7b3b9f;
+  color: #7a76b8;
 }
 
 #footer {
@@ -125,7 +125,7 @@
 
 .blurb h4 a:link,
 #footer h4 {
-  color: #7b3b9f;
+  color: #7a76b8;
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
@@ -137,7 +137,7 @@ a.tag:focus,
 #dashboard .current,
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
-  background: #b48ec4;
+  background: #b8b5da;
   color: #fff;
 }
 
@@ -149,28 +149,28 @@ a.tag:focus,
 #header .dropdown .menu,
 #greeting .dropdown .menu,
 #greeting .dropdown .menu a {
-  background: #d4afe0;
+  background: #d8d6ed;
   color: #000;
 }
 
 #dashboard,
 #dashboard.own {
-  background: #e8d0f0;
+  background: #eceaf7;
   color: #000;
-  border: 2px solid #b48ec4;
+  border: 2px solid #b8b5da;
   box-shadow: 0 0 2px #000;
 }
 
 #header .dropdown .menu,
 #greeting .dropdown .menu {
-  border: 1px solid #b48ec4;
+  border: 1px solid #b8b5da;
 }
 
 #greeting .current,
 #greeting .dropdown:hover li,
 #greeting .dropdown:focus li {
   box-shadow: none;
-  background: #d4afe0;
+  background: #d8d6ed;
   color: #000;
 }
 
@@ -214,7 +214,7 @@ a.current,
 .search span.tip,
 .listbox,
 fieldset fieldset.listbox {
-  border-color: #b48ec4;
+  border-color: #b8b5da;
 }
 
 .comment h4.byline,
@@ -233,21 +233,21 @@ form ul.notes,
 div.dynamic,
 #ui-datepicker-div,
 .ui-datepicker table {
-  background-color: #c09ad0;
-  border-color: #b48ec4;
+  background-color: #a09cc8;
+  border-color: #b8b5da;
 }
 
 .flash,
 .notice {
-  background-color: #c09ad0;
+  background-color: #a09cc8;
   border-color: #000;
 }
 
 form .notice,
 ul.notes,
 .caution {
-  background-color: #ecdff5;
-  border-color: #5a2075;
+  background-color: #f2f1fb;
+  border-color: #4a4690;
 }
 
 .alert.flash,
@@ -285,7 +285,7 @@ form blockquote.userstuff,
 .secondary .toggled form,
 .secondary form,
 .required .autocomplete {
-  background-color: #d4afe0;
+  background-color: #d8d6ed;
 }
 
 .bookmark .user {
@@ -294,10 +294,10 @@ form blockquote.userstuff,
 
 .filters .submit input {
   color: #FFF;
-  background: #b48ec4;
-  border: 1px solid #d4afe0;
+  background: #b8b5da;
+  border: none;
   border-radius: 10px;
-  box-shadow: 0 0 4px #000;
+  box-shadow: none;
 }
 
 .filters fieldset {
@@ -315,7 +315,7 @@ dl.index dd,
 textarea:focus,
 input:focus,
 select:focus {
-  background-color: #e8d0f0;
+  background-color: #eceaf7;
 }
 
 textarea,
@@ -332,13 +332,13 @@ option,
 
 li.blurb,
 .listbox li.blurb {
-  border: 4px solid #b48ec4;
+  border: 4px solid #b8b5da;
   border-radius: 20px;
   box-shadow: 0 0 4px #000;
 }
 
 .blurb .header {
-  border-bottom: 2px solid #b48ec4;
+  border-bottom: 2px solid #b8b5da;
 }
 
 .bookmark .user .module {
@@ -351,7 +351,7 @@ li.blurb,
 }
 
 .reading h4.viewed {
-  border: 1px dashed #2a0a3a;
+  border: 1px dashed #1a1830;
 }
 
 .icon {
@@ -377,7 +377,7 @@ dl.meta,
 
 #workskin h2 {
   font-size: 2.7em;
-  color: #7b3b9f;
+  color: #7a76b8;
 }
 
 ul.tags li.warnings,
@@ -400,58 +400,56 @@ li.relationships + li.freeforms {
 
 ul.tags li.warnings:first-child:before {
   content: "⚠️ ";
-  color: #2a0a3a;
+  color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.relationships:before {
-  content: "🍒 ";
-  color: #2a0a3a;
+  content: "🐰 ";
+  color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.relationships + li.characters:before {
-  content: "🍒 ";
-  color: #2a0a3a;
+  content: "🐰 ";
+  color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.characters + li.freeforms:before {
-  content: "🍒 ";
-  color: #2a0a3a;
+  content: "🐰 ";
+  color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.characters:before {
-  content: "🍒 ";
-  color: #2a0a3a;
+  content: "🐰 ";
+  color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.freeforms:before {
-  content: "🍒 ";
-  color: #2a0a3a;
+  content: "🐰 ";
+  color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.relationships + li.freeforms:before {
-  content: "🍒 ";
-  color: #2a0a3a;
+  content: "🐰 ";
+  color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 ul.tags li.relationships a {
-  color: #7b3b9f;
+  color: #7a76b8;
 }
-
-/* ── FLAT BUTTONS ───────────────────────────────────────── */
 
 button,
 .actions a,
@@ -459,8 +457,8 @@ button,
 .action,
 input[type="submit"],
 .actions a:visited {
-  color: #7b3b9f;
-  background-color: #ecdff5;
+  color: #7a76b8;
+  background-color: #f2f1fb;
 }
 
 .actions a,
@@ -494,8 +492,8 @@ input[type="submit"],
 button,
 .current,
 .actions label {
-  background: #ecdff5;
-  color: #7b3b9f;
+  background: #f2f1fb;
+  color: #7a76b8;
   border: none;
   box-shadow: none;
 }
@@ -513,8 +511,8 @@ input[type="submit"]:hover,
 input[type="submit"]:focus,
 button:hover,
 button:focus {
-  background: #d4afe0;
-  color: #7b3b9f;
+  background: #d8d6ed;
+  color: #7a76b8;
   border: none;
   box-shadow: none;
 }
@@ -588,5 +586,5 @@ dl.index dd,
 }
 
 .blurb h4.heading a:visited {
-  color: #9b6bbf !important;
+  color: #9a97cc !important;
 }
