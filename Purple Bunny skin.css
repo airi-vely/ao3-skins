@@ -125,7 +125,7 @@
 
 .blurb h4 a:link,
 #footer h4 {
-  color: #7a76b8;
+  color: #4a4690;
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
@@ -472,6 +472,7 @@ button,
   background-image: none;
   box-shadow: none;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .actions input,
@@ -480,6 +481,7 @@ textarea {
   background-image: none;
   box-shadow: none;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .actions a,
