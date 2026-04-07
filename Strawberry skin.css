@@ -16,11 +16,11 @@
 .listbox .index,
 .work.own,
 .thread .even {
-  background: #FFF9E6;
+  background: #fad6db;
 }
 
 #outer.wrapper {
-  background: #FFF9E6;
+  background: #fad6db;
   padding-top: 140px;
   background-image: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/strawberry-bg.png");
   background-size: 50% auto;
@@ -30,8 +30,8 @@
 
 #header .heading {
   margin: 20px 0px 10px 20px;
-  border: 2px solid #b8b5da;
-  background-color: #d8d6ed;
+  border: 2px solid #e595a9;
+  background-color: #f9d4d9;
   border-radius: 20px;
   width: 130px;
   height: 80px;
@@ -39,16 +39,16 @@
 }
 
 #header {
-  background-color: #eceaf7;
+  background-color: #fad6db;
   border-radius: 20px;
-  border: 10px solid #b8b5da;
+  border: 10px solid #e595a9;
   box-shadow: 0 0 4px #000;
 }
 
 #header .primary {
   box-shadow: none;
   background: none;
-  color: #1a1830;
+  color: #62391f;
 }
 
 #header .primary li:first-child {
@@ -59,11 +59,11 @@
 #header .primary li a,
 #greeting li,
 #greeting li a {
-  color: #1a1830;
+  color: #62391f;
 }
 
 #header .heading a {
-  color: #7a76b8;
+  color: #ff719c;
   font-size: 0;
   padding: 0;
   height: 100%;
@@ -77,20 +77,20 @@
   display: block;
   width: 130px;
   height: 120px;
-  background: url("hhttps://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/strawberry-icon.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/strawberry-icon.png") no-repeat center;
   background-size: contain;
 }
 
 #greeting {
   background: none;
   margin-right: 0em;
-  color: #1a1830;
+  color: #62391f;
   padding: 20px;
 }
 
 #greeting li {
   clear: left;
-  border-bottom: 1px dashed #1a1830;
+  border-bottom: 1px dashed #62391f;
   margin-top: 0.3em;
 }
 
@@ -109,13 +109,13 @@
 
 #footer .menu a,
 #footer .menu {
-  color: #1a1830;
+  color: #62391f;
 }
 
 .system .latest h3,
 .splash .module h3,
 .system .tweets h3 {
-  color: #7a76b8;
+  color: #ff719c;
 }
 
 #footer {
@@ -125,7 +125,7 @@
 
 .blurb h4 a:link,
 #footer h4 {
-  color: #4a4690;
+  color: #7f5f47;
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
@@ -137,7 +137,7 @@ a.tag:focus,
 #dashboard .current,
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
-  background: #b8b5da;
+  background: #e595a9;
   color: #fff;
 }
 
@@ -149,28 +149,28 @@ a.tag:focus,
 #header .dropdown .menu,
 #greeting .dropdown .menu,
 #greeting .dropdown .menu a {
-  background: #d8d6ed;
+  background: #f9d4d9;
   color: #000;
 }
 
 #dashboard,
 #dashboard.own {
-  background: #eceaf7;
+  background: #fad6db;
   color: #000;
-  border: 2px solid #b8b5da;
+  border: 2px solid #e595a9;
   box-shadow: 0 0 2px #000;
 }
 
 #header .dropdown .menu,
 #greeting .dropdown .menu {
-  border: 1px solid #b8b5da;
+  border: 1px solid #e595a9;
 }
 
 #greeting .current,
 #greeting .dropdown:hover li,
 #greeting .dropdown:focus li {
   box-shadow: none;
-  background: #d8d6ed;
+  background: #f9d4d9;
   color: #000;
 }
 
@@ -214,7 +214,7 @@ a.current,
 .search span.tip,
 .listbox,
 fieldset fieldset.listbox {
-  border-color: #b8b5da;
+  border-color: #e595a9;
 }
 
 .comment h4.byline,
@@ -233,21 +233,21 @@ form ul.notes,
 div.dynamic,
 #ui-datepicker-div,
 .ui-datepicker table {
-  background-color: #a09cc8;
-  border-color: #b8b5da;
+  background-color: #ffadd7;
+  border-color: #e595a9;
 }
 
 .flash,
 .notice {
-  background-color: #e8e6f5;
+  background-color: #d2e7c5;
   border-color: #000;
 }
 
 form .notice,
 ul.notes,
 .caution {
-  background-color: #f2f1fb;
-  border-color: #4a4690;
+  background-color: #d2e7c5;
+  border-color: #7f5f47;
 }
 
 .alert.flash,
@@ -285,7 +285,7 @@ form blockquote.userstuff,
 .secondary .toggled form,
 .secondary form,
 .required .autocomplete {
-  background-color: #d8d6ed;
+  background-color: #f9d4d9;
 }
 
 .bookmark .user {
@@ -294,7 +294,7 @@ form blockquote.userstuff,
 
 .filters .submit input {
   color: #FFF;
-  background: #b8b5da;
+  background: #e595a9;
   border: none;
   border-radius: 10px;
   box-shadow: none;
@@ -315,7 +315,7 @@ dl.index dd,
 textarea:focus,
 input:focus,
 select:focus {
-  background-color: #eceaf7;
+  background-color: #fad6db;
 }
 
 textarea,
@@ -332,13 +332,13 @@ option,
 
 li.blurb,
 .listbox li.blurb {
-  border: 4px solid #b8b5da;
+  border: 4px solid #e595a9;
   border-radius: 20px;
   box-shadow: 0 0 4px #000;
 }
 
 .blurb .header {
-  border-bottom: 2px solid #b8b5da;
+  border-bottom: 2px solid #e595a9;
 }
 
 .bookmark .user .module {
@@ -351,7 +351,7 @@ li.blurb,
 }
 
 .reading h4.viewed {
-  border: 1px dashed #1a1830;
+  border: 1px dashed #62391f;
 }
 
 .icon {
@@ -377,7 +377,7 @@ dl.meta,
 
 #workskin h2 {
   font-size: 2.7em;
-  color: #4a4690;
+  color: #7f5f47;
 }
 
 ul.tags li.warnings,
@@ -400,55 +400,55 @@ li.relationships + li.freeforms {
 
 ul.tags li.warnings:first-child:before {
   content: "⚠️ ";
-  color: #1a1830;
+  color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.relationships:before {
   content: "🐰 ";
-  color: #1a1830;
+  color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.relationships + li.characters:before {
   content: "🐰 ";
-  color: #1a1830;
+  color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.characters + li.freeforms:before {
   content: "🐰 ";
-  color: #1a1830;
+  color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.characters:before {
   content: "🐰 ";
-  color: #1a1830;
+  color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.freeforms:before {
   content: "🐰 ";
-  color: #1a1830;
+  color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.relationships + li.freeforms:before {
   content: "🐰 ";
-  color: #1a1830;
+  color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 ul.tags li.relationships a {
-  color: #7a76b8;
+  color: #ff719c;
 }
 
 button,
@@ -457,8 +457,8 @@ button,
 .action,
 input[type="submit"],
 .actions a:visited {
-  color: #7a76b8;
-  background-color: #f2f1fb;
+  color: #ff719c;
+  background-color: #fad6db;
 }
 
 .actions a,
@@ -494,8 +494,8 @@ input[type="submit"],
 button,
 .current,
 .actions label {
-  background: #f2f1fb;
-  color: #7a76b8;
+  background: #fad6db;
+  color: #ff719c;
   border: none;
   box-shadow: none;
 }
@@ -513,8 +513,8 @@ input[type="submit"]:hover,
 input[type="submit"]:focus,
 button:hover,
 button:focus {
-  background: #d8d6ed;
-  color: #7a76b8;
+  background: #f9d4d9;
+  color: #ff719c;
   border: none;
   box-shadow: none;
 }
@@ -588,5 +588,5 @@ dl.index dd,
 }
 
 .blurb h4.heading a:visited {
-  color: #9a97cc !important;
+  color: #e595a9 !important;
 }
