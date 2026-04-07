@@ -22,7 +22,7 @@
 #outer.wrapper {
   background: #fad6db;
   padding-top: 140px;
-  background-image: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/strawberry-bg.png");
+  background-image: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/strawberry-bg.png");
   background-size: 50% auto;
   background-repeat: repeat;
   background-position: center top;
@@ -77,7 +77,7 @@
   display: block;
   width: 130px;
   height: 120px;
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/strawberry-icon.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/strawberry-icon.png") no-repeat center;
   background-size: contain;
 }
 

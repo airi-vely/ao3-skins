@@ -22,7 +22,7 @@
 #outer.wrapper {
   background: #FFF9E6;
   padding-top: 140px;
-  background-image: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/bunny-purple-bg.png");
+  background-image: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/bunny-purple-bg.png");
   background-size: 50% auto;
   background-repeat: repeat;
   background-position: center top;
@@ -77,7 +77,7 @@
   display: block;
   width: 130px;
   height: 120px;
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/bunny-icon.png") no-repeat center;
+  background: url("hhttps://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/bunny-icon.png") no-repeat center;
   background-size: contain;
 }
 
