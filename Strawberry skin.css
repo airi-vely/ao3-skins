@@ -406,42 +406,42 @@ ul.tags li.warnings:first-child:before {
 }
 
 li.warnings + li.relationships:before {
-  content: "🐰 ";
+  content: "🍓 ";
   color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.relationships + li.characters:before {
-  content: "🐰 ";
+  content: "🍓 ";
   color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.characters + li.freeforms:before {
-  content: "🐰 ";
+  content: "🍓 ";
   color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.characters:before {
-  content: "🐰 ";
+  content: "🍓 ";
   color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.freeforms:before {
-  content: "🐰 ";
+  content: "🍓 ";
   color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.relationships + li.freeforms:before {
-  content: "🐰 ";
+  content: "🍓 ";
   color: #62391f;
   font-family: Georgia, serif;
   font-weight: 600;

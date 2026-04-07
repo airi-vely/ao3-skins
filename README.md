@@ -8,8 +8,11 @@ ao3 skins that I've made
 
 ### 🐰 Purple Bunny
 
-A soft blue-grey lavender skin with a bunny pattern background and cream accents.
 ![Purple Bunny](purple-bunny-preview.png)
+
+### 🍓 Strawberry
+
+![Strawberry](strawberry-skin-preview.jpg)
 
 ---
 
