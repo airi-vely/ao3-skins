@@ -31,7 +31,7 @@ ao3 skins that I've made
 ## Credits
 
 - Base skin structure inspired by [sorakissed](https://github.com/sorakissed)
-- Bunny background image: original art (please do not reuse)
+- Backgrounds and icons are from Canva
 - Flat button style referenced from public AO3 skin resources
 
 ---
