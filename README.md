@@ -12,7 +12,7 @@ ao3 skins that I've made
 
 ### 🍓 Strawberry
 
-![Strawberry](https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/strawberry-skin-preview.jpg)
+![Strawberry](https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/strawberry-preview.png)
 
 ---
 
