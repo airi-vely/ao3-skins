@@ -16,11 +16,11 @@
 .listbox .index,
 .work.own,
 .thread .even {
-  background: #fad6db;
+  background: #fffefc;
 }
 
 #outer.wrapper {
-  background: #fad6db;
+  background: #fffefc;
   padding-top: 140px;
   background-image: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/strawberry-bg.png");
   background-size: 50% auto;
@@ -39,7 +39,7 @@
 }
 
 #header {
-  background-color: #fad6db;
+  background-color: #fffefc;
   border-radius: 20px;
   border: 10px solid #e595a9;
   box-shadow: 0 0 4px #000;
@@ -155,7 +155,7 @@ a.tag:focus,
 
 #dashboard,
 #dashboard.own {
-  background: #fad6db;
+  background: #fffefc;
   color: #000;
   border: 2px solid #e595a9;
   box-shadow: 0 0 2px #000;
@@ -315,7 +315,7 @@ dl.index dd,
 textarea:focus,
 input:focus,
 select:focus {
-  background-color: #fad6db;
+  background-color: #fffefc;
 }
 
 textarea,
@@ -377,7 +377,7 @@ dl.meta,
 
 #workskin h2 {
   font-size: 2.7em;
-  color: #7f5f47;
+  color: #517458;
 }
 
 ul.tags li.warnings,
@@ -449,6 +449,15 @@ li.relationships + li.freeforms:before {
 
 ul.tags li.relationships a {
   color: #ff719c;
+  background: #ffe6e9;
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+ul.tags li.relationships a:hover,
+ul.tags li.relationships a:focus {
+  color: #ffffff;
+  background: #e595a9;
 }
 
 button,
@@ -458,7 +467,7 @@ button,
 input[type="submit"],
 .actions a:visited {
   color: #ff719c;
-  background-color: #fad6db;
+  background-color: #ffe6e9;
 }
 
 .actions a,
@@ -494,7 +503,7 @@ input[type="submit"],
 button,
 .current,
 .actions label {
-  background: #fad6db;
+  background: #ffe6e9;
   color: #ff719c;
   border: none;
   box-shadow: none;
@@ -513,7 +522,7 @@ input[type="submit"]:hover,
 input[type="submit"]:focus,
 button:hover,
 button:focus {
-  background: #f9d4d9;
+  background: #ffe6e9;
   color: #ff719c;
   border: none;
   box-shadow: none;
