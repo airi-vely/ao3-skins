@@ -458,7 +458,7 @@ button,
 input[type="submit"],
 .actions a:visited {
   color: #7a76b8;
-  background-color: #f2f1fb;
+  background-color: #d8d6ed;
 }
 
 .actions a,
@@ -494,7 +494,7 @@ input[type="submit"],
 button,
 .current,
 .actions label {
-  background: #f2f1fb;
+  background: #d8d6ed;
   color: #7a76b8;
   border: none;
   box-shadow: none;
