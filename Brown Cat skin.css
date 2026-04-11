@@ -1,0 +1,601 @@
+#header h1 sup,
+#greeting .icon,
+#header .button,
+#header .landmark,
+#header .logo {
+  display: none;
+}
+
+#header,
+#inner.wrapper {
+  margin: 0em 4%;
+}
+
+#main,
+#inner.wrapper,
+.listbox .index,
+.work.own,
+.thread .even {
+  background: #fffefc;
+}
+
+#outer.wrapper {
+  background: #fffefc;
+  padding-top: 140px;
+  background-image: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/strawberry-bg.png");
+  background-size: 50% auto;
+  background-repeat: repeat;
+  background-position: center top;
+}
+
+#header .heading {
+  margin: 20px 0px 10px 20px;
+  border: 2px solid #e595a9;
+  background-color: #f9d4d9;
+  border-radius: 20px;
+  width: 130px;
+  height: 80px;
+  display: block;
+}
+
+#header {
+  background-color: #fffefc;
+  border-radius: 20px;
+  border: 10px solid #e595a9;
+  box-shadow: 0 0 4px #000;
+}
+
+#header .primary {
+  box-shadow: none;
+  background: none;
+  color: #62391f;
+}
+
+#header .primary li:first-child {
+  margin-left: 0em;
+}
+
+#header .primary li,
+#header .primary li a,
+#greeting li,
+#greeting li a {
+  color: #62391f;
+}
+
+#header .heading a {
+  color: #ff719c;
+  font-size: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header h1.heading a::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 120px;
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/strawberry-icon.png") no-repeat center;
+  background-size: contain;
+}
+
+#greeting {
+  background: none;
+  margin-right: 0em;
+  color: #62391f;
+  padding: 20px;
+}
+
+#greeting li {
+  clear: left;
+  border-bottom: 1px dashed #62391f;
+  margin-top: 0.3em;
+}
+
+#greeting .icon img {
+  margin-top: 0.3em;
+  border: 2px solid #fff;
+}
+
+#greeting .dropdown .menu li {
+  margin: 0 0.125em;
+}
+
+#greeting .menu {
+  width: 16em;
+}
+
+#footer .menu a,
+#footer .menu {
+  color: #62391f;
+}
+
+.system .latest h3,
+.splash .module h3,
+.system .tweets h3 {
+  color: #ff719c;
+}
+
+#footer {
+  border: none;
+  background: none;
+}
+
+.blurb h4 a:link,
+#footer h4 {
+  color: #7f5f47;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus,
+a.tag:hover,
+a.tag:focus,
+#dashboard a:hover,
+#dashboard a:focus,
+#dashboard .current,
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  background: #e595a9;
+  color: #fff;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown .menu a,
+#header .dropdown .menu,
+#greeting .dropdown .menu,
+#greeting .dropdown .menu a {
+  background: #f9d4d9;
+  color: #000;
+}
+
+#dashboard,
+#dashboard.own {
+  background: #fffefc;
+  color: #000;
+  border: 2px solid #e595a9;
+  box-shadow: 0 0 2px #000;
+}
+
+#header .dropdown .menu,
+#greeting .dropdown .menu {
+  border: 1px solid #e595a9;
+}
+
+#greeting .current,
+#greeting .dropdown:hover li,
+#greeting .dropdown:focus li {
+  box-shadow: none;
+  background: #f9d4d9;
+  color: #000;
+}
+
+#dashboard ul {
+  background: transparent;
+  border: none;
+}
+
+#dashboard .secondary {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.splash .module h3,
+.splash .news li,
+.home .header h2,
+li.comment,
+dl.meta,
+.bookmark .user,
+#header .menu li,
+#dashboard ul,
+#dashboard .secondary,
+ul.notes,
+.flash,
+.notice,
+tbody tr,
+thead td,
+#header #small_login,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+form dt,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.search span.tip,
+.listbox,
+fieldset fieldset.listbox {
+  border-color: #e595a9;
+}
+
+.comment h4.byline,
+#main .verbose legend,
+.unread,
+.child,
+.unwrangled,
+.unreviewed,
+.verbose fieldset,
+.draft,
+form ul.notes,
+#modal,
+.ui-sortable li,
+.comment_notice,
+.kudos_notice,
+div.dynamic,
+#ui-datepicker-div,
+.ui-datepicker table {
+  background-color: #ffadd7;
+  border-color: #e595a9;
+}
+
+.flash,
+.notice {
+  background-color: #d2e7c5;
+  border-color: #000;
+}
+
+form .notice,
+ul.notes,
+.caution {
+  background-color: #d2e7c5;
+  border-color: #7f5f47;
+}
+
+.alert.flash,
+.error,
+.comment_error,
+.kudos_error {
+  background: #efd1d1;
+  color: #000;
+  border-color: #900;
+}
+
+h2 {
+  font-size: 1.286em;
+  line-height: 1;
+  margin: 0.5375em 0;
+}
+
+.listbox,
+.bookmark .user,
+.bookmark .user .header,
+.reading h4.viewed,
+li.relationships a,
+.dropdown,
+fieldset fieldset.listbox,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.secondary form,
+.required .autocomplete {
+  background-color: #f9d4d9;
+}
+
+.bookmark .user {
+  border-radius: 5px;
+}
+
+.filters .submit input {
+  color: #FFF;
+  background: #e595a9;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.filters fieldset {
+  border-radius: 20px;
+}
+
+li.blurb,
+.listbox li.blurb,
+li.comment,
+.statistics .index li:nth-of-type(even),
+dl.meta,
+dl.index dd,
+#ibox_wrapper,
+#ibox_content,
+textarea:focus,
+input:focus,
+select:focus {
+  background-color: #fffefc;
+}
+
+textarea,
+input,
+select,
+option,
+.toggled form,
+.dynamic form,
+.autocomplete .dropdown ul,
+.autocomplete .dropdown ul li,
+.autocomplete input {
+  background-color: #fff;
+}
+
+li.blurb,
+.listbox li.blurb {
+  border: 4px solid #e595a9;
+  border-radius: 20px;
+  box-shadow: 0 0 4px #000;
+}
+
+.blurb .header {
+  border-bottom: 2px solid #e595a9;
+}
+
+.bookmark .user .module {
+  border: none;
+}
+
+.reading h4.viewed,
+.bookmark .user {
+  box-shadow: none;
+}
+
+.reading h4.viewed {
+  border: 1px dashed #62391f;
+}
+
+.icon {
+  border: 2px solid #fff;
+}
+
+.comment div.icon {
+  border-bottom: none;
+}
+
+.workskin .notes,
+dl.meta,
+.reading h4.viewed,
+.bookmark .user,
+.comment .posted,
+.comment .edited {
+  font-size: 90%;
+}
+
+#workskin {
+  text-align: left;
+}
+
+#workskin h2 {
+  font-size: 2.7em;
+  color: #517458;
+}
+
+ul.tags li.warnings,
+ul.tags li.relationships,
+ul.tags li.characters,
+ul.tags li.freeforms {
+  float: left;
+  margin: 0;
+  padding: 2px;
+}
+
+li.warnings + li.relationships,
+li.relationships + li.characters,
+li.characters + li.freeforms,
+li.warnings + li.characters,
+li.warnings + li.freeforms,
+li.relationships + li.freeforms {
+  clear: left;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "⚠️ ";
+  color: #62391f;
+  font-family: Georgia, serif;
+  font-weight: 600;
+}
+
+li.warnings + li.relationships:before {
+  content: "🍓 ";
+  color: #62391f;
+  font-family: Georgia, serif;
+  font-weight: 600;
+}
+
+li.relationships + li.characters:before {
+  content: "🍓 ";
+  color: #62391f;
+  font-family: Georgia, serif;
+  font-weight: 600;
+}
+
+li.characters + li.freeforms:before {
+  content: "🍓 ";
+  color: #62391f;
+  font-family: Georgia, serif;
+  font-weight: 600;
+}
+
+li.warnings + li.characters:before {
+  content: "🍓 ";
+  color: #62391f;
+  font-family: Georgia, serif;
+  font-weight: 600;
+}
+
+li.warnings + li.freeforms:before {
+  content: "🍓 ";
+  color: #62391f;
+  font-family: Georgia, serif;
+  font-weight: 600;
+}
+
+li.relationships + li.freeforms:before {
+  content: "🍓 ";
+  color: #62391f;
+  font-family: Georgia, serif;
+  font-weight: 600;
+}
+
+ul.tags li.relationships a {
+  color: #ff719c;
+  background: #ffe6e9;
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+ul.tags li.relationships a:hover,
+ul.tags li.relationships a:focus {
+  color: #ffffff;
+  background: #e595a9;
+}
+
+button,
+.actions a,
+.actions a:link,
+.action,
+input[type="submit"],
+.actions a:visited {
+  color: #ff719c;
+  background-color: #ffe6e9;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  border: none;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.actions input,
+input[type="submit"],
+textarea {
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: #ffe6e9;
+  color: #ff719c;
+  border: none;
+  box-shadow: none;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button:hover,
+button:focus {
+  background: #ffe6e9;
+  color: #ff719c;
+  border: none;
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.listbox .index,
+.dashboard .listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  box-shadow: none;
+}
+
+.actions a:hover,
+a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+#dashboard .current,
+#outer .current,
+#header .current,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover,
+#header .primary .menu .current {
+  border-color: initial;
+  box-shadow: none !important;
+}
+
+.blurb h4.heading a:visited {
+  color: #e595a9 !important;
+}
