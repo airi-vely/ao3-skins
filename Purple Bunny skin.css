@@ -77,7 +77,7 @@
   display: block;
   width: 130px;
   height: 120px;
-  background: url("hhttps://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/bunny-icon.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/bunny-icon.png") no-repeat center;
   background-size: contain;
 }
 
@@ -389,12 +389,12 @@ ul.tags li.freeforms {
   padding: 2px;
 }
 
-li.warnings + li.relationships,
-li.relationships + li.characters,
-li.characters + li.freeforms,
-li.warnings + li.characters,
-li.warnings + li.freeforms,
-li.relationships + li.freeforms {
+li.warnings+li.relationships,
+li.relationships+li.characters,
+li.characters+li.freeforms,
+li.warnings+li.characters,
+li.warnings+li.freeforms,
+li.relationships+li.freeforms {
   clear: left;
 }
 
@@ -405,42 +405,42 @@ ul.tags li.warnings:first-child:before {
   font-weight: 600;
 }
 
-li.warnings + li.relationships:before {
+li.warnings+li.relationships:before {
   content: "🐰 ";
   color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
-li.relationships + li.characters:before {
+li.relationships+li.characters:before {
   content: "🐰 ";
   color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
-li.characters + li.freeforms:before {
+li.characters+li.freeforms:before {
   content: "🐰 ";
   color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
-li.warnings + li.characters:before {
+li.warnings+li.characters:before {
   content: "🐰 ";
   color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
-li.warnings + li.freeforms:before {
+li.warnings+li.freeforms:before {
   content: "🐰 ";
   color: #1a1830;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
-li.relationships + li.freeforms:before {
+li.relationships+li.freeforms:before {
   content: "🐰 ";
   color: #1a1830;
   font-family: Georgia, serif;
