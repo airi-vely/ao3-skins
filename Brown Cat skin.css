@@ -16,13 +16,13 @@
 .listbox .index,
 .work.own,
 .thread .even {
-  background: #fffefc;
+  background: #f7efe2;
 }
 
 #outer.wrapper {
-  background: #fffefc;
+  background: #f7efe2;
   padding-top: 140px;
-  background-image: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/strawberry-bg.png");
+  background-image: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/cat-bg.png");
   background-size: 50% auto;
   background-repeat: repeat;
   background-position: center top;
@@ -30,8 +30,8 @@
 
 #header .heading {
   margin: 20px 0px 10px 20px;
-  border: 2px solid #e595a9;
-  background-color: #f9d4d9;
+  border: 2px solid #d8b196;
+  background-color: #d7cdc4;
   border-radius: 20px;
   width: 130px;
   height: 80px;
@@ -39,16 +39,16 @@
 }
 
 #header {
-  background-color: #fffefc;
+  background-color: #f7efe2;
   border-radius: 20px;
-  border: 10px solid #e595a9;
+  border: 10px solid #d8b196;
   box-shadow: 0 0 4px #000;
 }
 
 #header .primary {
   box-shadow: none;
   background: none;
-  color: #62391f;
+  color: #62442f;
 }
 
 #header .primary li:first-child {
@@ -59,11 +59,11 @@
 #header .primary li a,
 #greeting li,
 #greeting li a {
-  color: #62391f;
+  color: #62442f;
 }
 
 #header .heading a {
-  color: #ff719c;
+  color: #ab8979;
   font-size: 0;
   padding: 0;
   height: 100%;
@@ -77,20 +77,20 @@
   display: block;
   width: 130px;
   height: 120px;
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/strawberry-icon.png") no-repeat center;
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/cat-icon.png") no-repeat center;
   background-size: contain;
 }
 
 #greeting {
   background: none;
   margin-right: 0em;
-  color: #62391f;
+  color: #62442f;
   padding: 20px;
 }
 
 #greeting li {
   clear: left;
-  border-bottom: 1px dashed #62391f;
+  border-bottom: 1px dashed #62442f;
   margin-top: 0.3em;
 }
 
@@ -109,13 +109,13 @@
 
 #footer .menu a,
 #footer .menu {
-  color: #62391f;
+  color: #62442f;
 }
 
 .system .latest h3,
 .splash .module h3,
 .system .tweets h3 {
-  color: #ff719c;
+  color: #ab8979;
 }
 
 #footer {
@@ -125,7 +125,7 @@
 
 .blurb h4 a:link,
 #footer h4 {
-  color: #7f5f47;
+  color: #a47d62;
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
@@ -137,7 +137,7 @@ a.tag:focus,
 #dashboard .current,
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
-  background: #e595a9;
+  background: #d8b196;
   color: #fff;
 }
 
@@ -149,28 +149,28 @@ a.tag:focus,
 #header .dropdown .menu,
 #greeting .dropdown .menu,
 #greeting .dropdown .menu a {
-  background: #f9d4d9;
+  background: #d7cdc4;
   color: #000;
 }
 
 #dashboard,
 #dashboard.own {
-  background: #fffefc;
+  background: #f7efe2;
   color: #000;
-  border: 2px solid #e595a9;
+  border: 2px solid #d8b196;
   box-shadow: 0 0 2px #000;
 }
 
 #header .dropdown .menu,
 #greeting .dropdown .menu {
-  border: 1px solid #e595a9;
+  border: 1px solid #d8b196;
 }
 
 #greeting .current,
 #greeting .dropdown:hover li,
 #greeting .dropdown:focus li {
   box-shadow: none;
-  background: #f9d4d9;
+  background: #d7cdc4;
   color: #000;
 }
 
@@ -214,7 +214,7 @@ a.current,
 .search span.tip,
 .listbox,
 fieldset fieldset.listbox {
-  border-color: #e595a9;
+  border-color: #d8b196;
 }
 
 .comment h4.byline,
@@ -233,8 +233,8 @@ form ul.notes,
 div.dynamic,
 #ui-datepicker-div,
 .ui-datepicker table {
-  background-color: #ffadd7;
-  border-color: #e595a9;
+  background-color: #d7cdc4;
+  border-color: #d8b196;
 }
 
 .flash,
@@ -247,7 +247,7 @@ form .notice,
 ul.notes,
 .caution {
   background-color: #d2e7c5;
-  border-color: #7f5f47;
+  border-color: #a47d62;
 }
 
 .alert.flash,
@@ -285,7 +285,7 @@ form blockquote.userstuff,
 .secondary .toggled form,
 .secondary form,
 .required .autocomplete {
-  background-color: #f9d4d9;
+  background-color: #d7cdc4;
 }
 
 .bookmark .user {
@@ -294,7 +294,7 @@ form blockquote.userstuff,
 
 .filters .submit input {
   color: #FFF;
-  background: #e595a9;
+  background: #d8b196;
   border: none;
   border-radius: 10px;
   box-shadow: none;
@@ -315,7 +315,7 @@ dl.index dd,
 textarea:focus,
 input:focus,
 select:focus {
-  background-color: #fffefc;
+  background-color: #f7efe2;
 }
 
 textarea,
@@ -332,13 +332,13 @@ option,
 
 li.blurb,
 .listbox li.blurb {
-  border: 4px solid #e595a9;
+  border: 4px solid #d8b196;
   border-radius: 20px;
   box-shadow: 0 0 4px #000;
 }
 
 .blurb .header {
-  border-bottom: 2px solid #e595a9;
+  border-bottom: 2px solid #d8b196;
 }
 
 .bookmark .user .module {
@@ -351,7 +351,7 @@ li.blurb,
 }
 
 .reading h4.viewed {
-  border: 1px dashed #62391f;
+  border: 1px dashed #62442f;
 }
 
 .icon {
@@ -400,56 +400,56 @@ li.relationships + li.freeforms {
 
 ul.tags li.warnings:first-child:before {
   content: "⚠️ ";
-  color: #62391f;
+  color: #62442f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.relationships:before {
   content: "🍓 ";
-  color: #62391f;
+  color: #62442f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.relationships + li.characters:before {
   content: "🍓 ";
-  color: #62391f;
+  color: #62442f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.characters + li.freeforms:before {
   content: "🍓 ";
-  color: #62391f;
+  color: #62442f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.characters:before {
   content: "🍓 ";
-  color: #62391f;
+  color: #62442f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.warnings + li.freeforms:before {
   content: "🍓 ";
-  color: #62391f;
+  color: #62442f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 li.relationships + li.freeforms:before {
   content: "🍓 ";
-  color: #62391f;
+  color: #62442f;
   font-family: Georgia, serif;
   font-weight: 600;
 }
 
 ul.tags li.relationships a {
-  color: #ff719c;
-  background: #ffe6e9;
+  color: #ab8979;
+  background: #d7cdc4;
   border-radius: 4px;
   padding: 1px 4px;
 }
@@ -457,7 +457,7 @@ ul.tags li.relationships a {
 ul.tags li.relationships a:hover,
 ul.tags li.relationships a:focus {
   color: #ffffff;
-  background: #e595a9;
+  background: #d8b196;
 }
 
 button,
@@ -466,8 +466,8 @@ button,
 .action,
 input[type="submit"],
 .actions a:visited {
-  color: #ff719c;
-  background-color: #ffe6e9;
+  color: #ab8979;
+  background-color: #d7cdc4;
 }
 
 .actions a,
@@ -503,8 +503,8 @@ input[type="submit"],
 button,
 .current,
 .actions label {
-  background: #ffe6e9;
-  color: #ff719c;
+  background: #d7cdc4;
+  color: #ab8979;
   border: none;
   box-shadow: none;
 }
@@ -522,8 +522,8 @@ input[type="submit"]:hover,
 input[type="submit"]:focus,
 button:hover,
 button:focus {
-  background: #ffe6e9;
-  color: #ff719c;
+  background: #d7cdc4;
+  color: #ab8979;
   border: none;
   box-shadow: none;
 }
@@ -597,5 +597,5 @@ dl.index dd,
 }
 
 .blurb h4.heading a:visited {
-  color: #e595a9 !important;
+  color: #d8b196 !important;
 }
