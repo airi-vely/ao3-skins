@@ -8,7 +8,7 @@ ao3 skins that I've made
 
 ### 🐰 Purple Bunny
 
-![Purple Bunny](https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/bunny-preview.png)
+![Purple Bunny](https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/bunny-preview-260421.png)
 
 ### 🍓 Strawberry
 
