@@ -522,10 +522,20 @@ input[type="submit"]:hover,
 input[type="submit"]:focus,
 button:hover,
 button:focus {
-  background: #ffe6e9;
-  color: #ff719c;
+  background: #f5b8c4;
+  color: #fff;
   border: none;
   box-shadow: none;
+  transition: background 0.25s, color 0.25s;
+}
+
+.actions a,
+.actions button,
+.actions input,
+.action,
+input[type="submit"],
+button {
+  transition: background 0.25s, color 0.25s;
 }
 
 .notice,

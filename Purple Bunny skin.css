@@ -302,6 +302,7 @@ form blockquote.userstuff,
 
 .filters fieldset {
   border-radius: 20px;
+  overflow: visible;
 }
 
 li.blurb,
@@ -610,4 +611,16 @@ button:active,
 input[type="submit"]:active {
   transform: scale(0.93);
   transition: transform 0.07s ease;
+}
+
+.filters .submit input:hover {
+  transform: scale(1.08);
+  transition: transform 0.15s ease-out;
+  border-radius: 10px;
+}
+
+.filters .submit input:active {
+  transform: scale(0.93);
+  transition: transform 0.07s ease;
+  border-radius: 10px;
 }
