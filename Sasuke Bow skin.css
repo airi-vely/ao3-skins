@@ -1,0 +1,1508 @@
+#outer {
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/squaree-bg.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.splash .module h3 {
+  border-bottom: 1px solid #c8c8c8;
+  color: #444444;
+  font-size: 1.714em;
+}
+
+a,
+a:link {
+  color: #444444;
+  text-decoration: none;
+}
+
+#header {
+  background: url("https://i.ibb.co/pvshvfwt/header1.jpg");
+  background-size: 40%;
+  background-position-x: left;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+#header .heading {
+  height: 14.5em;
+}
+
+#main {
+  color: #444444;
+}
+
+#main a {
+  color: #333333;
+}
+
+#main a:hover {
+  color: #222222;
+}
+
+#main h2.heading a,
+#main h2.heading {
+  color: #444444 !important;
+}
+
+.splash h2.heading,
+.splash h2.heading a,
+.splash h2.heading a:link,
+.splash h2.heading a:visited {
+  color: #444444 !important;
+}
+
+#header .primary {
+  background: url("https://i.ibb.co/hRRy7yxJ/header2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: none;
+}
+
+#header .logo,
+#header .heading sup,
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading a::before {
+  content: "𝒶𝓇𝒸𝒽𝒾𝓋𝑒 ℴ𝒻 ℴ𝓊𝓇 ℴ𝓌𝓃 ";
+  color: #333333 !important;
+  font-size: 1.5em;
+  text-shadow: none;
+}
+
+#greeting li {
+  clear: left;
+  border-bottom: 1px dashed #e0e0e0;
+  margin-top: 0.3em !important;
+}
+
+#greeting img.icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+#header .menu {
+  width: 20em;
+}
+
+#header .menu {
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  background: #e8e8e8;
+}
+
+#header a.dropdown-toggle,
+#greeting .user > li:nth-of-type(3) a {
+  color: #444444 !important;
+}
+
+#header .menu li a {
+  color: #444444 !important;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+#header .dropdown:hover a,
+#greeting .user > li:nth-of-type(3) a:hover {
+  background: transparent;
+}
+
+#footer {
+  background: url("https://i.ibb.co/pvshvfwt/header1.jpg");
+  background-size: 40%;
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: none;
+}
+
+#footer .heading {
+  font-variant: small-caps;
+  color: #333333;
+}
+
+#footer li,
+#footer li a,
+#footer button {
+  text-decoration: none;
+  color: #444444;
+}
+
+.favorite.module.odd h3.heading,
+.latest.news.module h3.heading span.title,
+.random.readings.module h3.heading span.title,
+.latest.messages.module h3.heading span.title,
+.social.module h3.heading {
+  color: #444444;
+  font-variant: small-caps;
+}
+
+.favorite.module.odd h3.heading,
+.latest.news.module h3.heading,
+.latest.messages.module.odd h3.heading,
+.social.module h3.heading {
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a,
+.splash .favorite li:nth-of-type(2n+2) a {
+  background: rgba(245, 245, 245, 0.8);
+  color: #444444;
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a::before,
+.splash .favorite li:nth-of-type(2n+2) a::before {
+  content: "♡";
+  text-shadow: none;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  background: #e0e0e0;
+  color: #111111 !important;
+}
+
+.splash .favorite {
+  position: relative;
+  padding-bottom: 22px;
+}
+
+.splash .favorite::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 98%;
+  transform: translateY(-50%);
+  width: 80px;
+  height: 80px;
+  background-image: url("https://i.ibb.co/gLt9fmjp/Miffy1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.splash .favorite::after {
+  content: "₍ᐢ‥ᐢ₎ ♡";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 20px;
+  color: #333333 !important;
+  text-shadow: none;
+  opacity: 0.9;
+  white-space: nowrap;
+}
+
+.news.index.group li.post.group {
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/dotted-bg.png");
+  background-size: 50x 50px;
+  background-repeat: repeat;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: .5em;
+  margin-bottom: 2em;
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.LV_invalid {
+  background: rgba(240, 240, 240, 0.9);
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+  padding: 1em;
+  color: #333333;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: rgba(240, 240, 240, 0.9);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: none;
+  color: #333333;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+.current a:visited {
+  background: #e0e0e0;
+  border: 2px solid #e8e8e8;
+  box-shadow: none;
+  color: #111111 !important;
+}
+
+fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  background: rgba(240, 240, 240, 0.9);
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+fieldset.warnings,
+fieldset fieldset {
+  background: rgba(240, 240, 240, 0.9);
+}
+
+.filters dl {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+.javascript .filters fieldset {
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/dotted-bg.png");
+  background-repeat: repeat;
+  background-size: 50px 50px;
+  background-position: center;
+}
+
+.filtering .filters #leave_filters {
+  background: #e8e8e8;
+}
+
+input,
+textarea,
+select {
+  background: rgba(240, 240, 240, 0.9);
+  color: #444444;
+  border: 2px solid #e8e8e8;
+  border-radius: 8px;
+  box-shadow: none;
+  padding-left: .5em;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+.autocomplete div.dropdown ul,
+.search [role="tooltip"] {
+  background: #e8e8e8;
+  color: #333333;
+  padding-left: .5em;
+}
+
+.footnote,
+p.character_counter {
+  color: #444444;
+}
+
+.autocomplete.dropdown {
+  background: transparent;
+}
+
+.autocomplete.dropdown p.notice {
+  background: #e0e0e0;
+  padding: 0 !important;
+}
+
+.required,
+.error,
+.alert.flash,
+label,
+dt.notes {
+  color: #555555;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #e8e8e8;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+span.question {
+  background: #e0e0e0;
+  border: 1px solid #e8e8e8;
+  padding: 1px;
+  color: #111111;
+  font-family: "Century Gothic", sans-serif;
+  box-shadow: none;
+}
+
+input[type="checkbox"],
+.actions li label input[type="checkbox"] {
+  appearance: none;
+  background: #e8e8e8;
+  border: 1px solid #e0e0e0;
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+input[type="checkbox"]:checked,
+.actions li label input[type="checkbox"]:checked {
+  background: #999999;
+  box-shadow: none;
+}
+
+input[type=radio] {
+  appearance: none;
+  background: #e8e8e8;
+  border: 1px solid #e0e0e0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+input[type=radio]:checked {
+  background: #999999;
+}
+
+.filters .indicator:before {
+  background: #e8e8e8;
+  border: 1px solid #e0e0e0;
+  background-image: none;
+}
+
+.filters [type="checkbox"]:checked + .indicator:before {
+  background: #e0e0e0;
+  background-image: none;
+  color: #111111;
+}
+
+.filters [type="radio"]:checked + .indicator:before {
+  background: #999999;
+  background-image: none;
+}
+
+.filters .exclude [type="checkbox"]:checked + .indicator:before {
+  background: #e0e0e0;
+  background-image: none;
+  color: #111111;
+}
+
+.filters .expander,
+.filters .expanded .expander {
+  filter: none;
+}
+
+.filters .more dd.search,
+dd.autocomplete li.input {
+  max-width: 10.7em;
+}
+
+.resp-sharing-button--bluesky,
+.resp-sharing-button--tumblr {
+  background: #f0f0f0 !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px;
+  box-shadow: none !important;
+}
+
+.toggled form,
+.dynamic form,
+div.dynamic {
+  background: transparent;
+  border: none;
+}
+
+#bookmark-form.post.bookmark form fieldset h4.heading {
+  color: #444444;
+}
+
+.dynamic form p.footnote {
+  margin-bottom: 1em;
+}
+
+.bookmark .user {
+  background: rgba(240, 240, 240, 0.9);
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+}
+
+.reading h4.viewed {
+  background: #e8e8e8;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: .5em;
+  margin: .5em;
+  box-shadow: none;
+}
+
+dl.index dd {
+  background: transparent;
+}
+
+dl.subscription.index.group {
+  background: rgba(240, 240, 240, 0.9);
+  padding: 1em;
+}
+
+#main.users-edit.dashboard.region dl,
+#main.pseuds-edit.dashboard.region dl,
+#main.users-change_username.dashboard.region dl,
+#main.users-change_password.dashboard.region dl,
+#main.users-change_email.dashboard.region dl,
+dl.meta,
+form dl {
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/dotted-bg.png");
+  background-size: auto;
+  background-repeat: repeat;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.wrapper {
+  background: transparent;
+  box-shadow: none;
+}
+
+.bio.module {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+  width: 97%;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: none;
+  background: #f5f5f5;
+}
+
+.bio.module h3.heading {
+  visibility: hidden;
+}
+
+.bio.module h3.heading::before {
+  visibility: visible;
+  content: " A note from the user:";
+  font-size: 150%;
+  text-decoration: underline;
+  color: #444444;
+}
+
+img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  box-sizing: border-box;
+  content: url("https://i.ibb.co/k21bddpp/Miffy-4.jpg");
+}
+
+.index .skins .icon,
+.skins .primary .icon {
+  background: url("https://i.ibb.co/k21bddpp/Miffy-4.jpg");
+  background-size: 55px 55px;
+  background-repeat: no-repeat;
+}
+
+.comment .icon .visitor {
+  background: url("https://i.ibb.co/k21bddpp/Miffy-4.jpg");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}
+
+.comment div.icon {
+  background: #f5f5f5;
+  border-bottom: 5px solid #e0e0e0;
+  border-radius: 8px 0px 0px 0px;
+  box-shadow: none;
+}
+
+.comment h4.byline {
+  background: #f5f5f5;
+  border-radius: 8px;
+  color: #444444;
+}
+
+div.comment {
+  border: none;
+}
+
+li.comment {
+  background: rgba(240, 240, 240, 0.9);
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 1em;
+  color: #444444;
+}
+
+.thread .even {
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/dotted-bg.png");
+  background-size: 50px 50px;
+  background-repeat: repeat;
+}
+
+ol.comment.index.group .read {
+  background: #e8e8e8;
+  color: #444444;
+}
+
+ol.comment.index.group .unread {
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/dotted-bg.png");
+  background-size: 50px 50px;
+  background-repeat: repeat;
+  color: #333333;
+}
+
+.replied {
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background: #e0e0e0 !important;
+  color: #111111 !important;
+  box-shadow: none;
+}
+
+span.unread {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #e0e0e0 !important;
+  color: #111111 !important;
+  box-shadow: none;
+}
+
+.draft {
+  border: 2px dashed #e0e0e0;
+  background: transparent;
+}
+
+.draft.work .wrapper {
+  background: #f5f5f5;
+}
+
+#previewpane fieldset {
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.child,
+.unwrangled,
+.unreviewed {
+  background: #f5f5f5;
+}
+
+.ui-sortable li {
+  background: transparent;
+  border: transparent;
+  color: #444444;
+}
+
+.ui-sortable li:hover {
+  background: #e8e8e8;
+  border: none;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+h2.collections {
+  box-shadow: none;
+  color: #444444;
+}
+
+#stat_chart svg rect:first-of-type {
+  filter: opacity(0%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(1),
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(2),
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(3),
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(4),
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(5),
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type {
+  filter: none;
+}
+
+#stat_chart svg text {
+  font-family: "Century Gothic", Arial, sans-serif;
+  filter: none;
+  color: #444444;
+}
+
+.listbox {
+  margin-top: 2em;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #e8e8e8;
+  color: #444444;
+}
+
+table {
+  background: #e8e8e8;
+}
+
+thead {
+  background: #f5f5f5;
+  color: #444444;
+  font-weight: bold;
+  font-size: 120%;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+th,
+tr,
+td {
+  background: #e8e8e8;
+  color: #444444;
+}
+
+span.requested.offered {
+  color: #444444;
+  background: #f5f5f5;
+}
+
+span.requested {
+  color: #444444;
+}
+
+div.preface .module::after {
+  content: "";
+  background-image: url("https://i.ibb.co/r2wwQFNy/starts1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 10px auto 0;
+}
+
+#dashboard.own,
+.dashboard .own {
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/dotted-bg.png");
+  background-size: 50px 50px;
+  background-repeat: repeat;
+  border: 2px solid #e0e0e0;
+  box-shadow: none;
+}
+
+#dashboard a {
+  color: #444444;
+  border: 1px solid transparent;
+}
+
+#dashboard .current {
+  background: #e0e0e0;
+  color: #111111;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+#dashboard a:hover {
+  background: #e0e0e0;
+  color: #111111;
+  border: 1px solid #e0e0e0;
+}
+
+#dashboard ul {
+  border-top: none;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/dotted-bg.png");
+  background-size: 50px 50px;
+  background-repeat: repeat;
+  border: 2px solid #e0e0e0;
+  box-shadow: none;
+}
+
+.listbox .index {
+  background: transparent;
+  box-shadow: none;
+  color: #444444;
+}
+
+.listbox > .heading {
+  font-variant: small-caps;
+  color: #444444;
+}
+
+li.blurb {
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/dotted-bg.png");
+  background-size: 50px 50px;
+  background-repeat: repeat;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: none;
+  margin-bottom: 2em;
+  color: #444444;
+}
+
+form dt {
+  border-bottom: none;
+  color: #444444;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link,
+li.added.tag {
+  border-radius: 5px;
+}
+
+a.tag:hover,
+a.tag:focus {
+  background: #e0e0e0 !important;
+  color: #222222 !important;
+}
+
+ul.tags li.warnings,
+ul.tags li.relationships,
+ul.tags li.characters,
+ul.tags li.freeforms {
+  float: left !important;
+  margin: 0;
+  padding: 2px;
+}
+
+li.warnings + li.relationships,
+li.relationships + li.characters,
+li.characters + li.freeforms,
+li.warnings + li.characters,
+li.warnings + li.freeforms,
+li.relationships + li.freeforms {
+  clear: left;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "🗯️ ";
+  color: #444444;
+  font-weight: 600;
+}
+
+li.warnings + li.relationships:before {
+  content: "★ ";
+  color: #444444;
+  font-weight: 600;
+}
+
+li.relationships + li.characters:before {
+  content: "★  ";
+  color: #444444;
+  font-weight: 600;
+}
+
+li.characters + li.freeforms:before {
+  content: "★ ";
+  color: #444444;
+  font-weight: 600;
+}
+
+li.warnings + li.characters:before {
+  content: "★ ";
+  color: #444444;
+  font-weight: 600;
+}
+
+li.warnings + li.freeforms:before {
+  content: "★ ";
+  color: #444444;
+  font-weight: 600;
+}
+
+li.relationships + li.freeforms:before {
+  content: "★ ";
+  color: #444444;
+  font-weight: 600;
+}
+
+ul.tags li.relationships a {
+  color: #333333 !important;
+}
+
+.blurb ul.series::before {
+  content: "Series: ";
+  color: #444444;
+  font-weight: 600;
+}
+
+.blurb .fandoms::before {
+  content: "Fandom: ";
+  color: #444444;
+  font-weight: 600;
+}
+
+li.blurb blockquote p:first-child::before {
+  content: "About: ";
+  color: #444444;
+  font-size: 95%;
+  font-weight: 600;
+}
+
+p.kudos {
+  background: none !important;
+  position: relative;
+  padding-left: 100px;
+  min-height: 80px;
+}
+
+p.kudos::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+  width: 115px;
+  height: 115px;
+  background: url("https://i.ibb.co/JSFR9w9/Miffy-3.png") no-repeat center center;
+  background-size: contain;
+}
+
+#workskin {
+  margin-top: 2em;
+  padding: 1.5em;
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/dotted-bg.png");
+  background-size: auto;
+  background-repeat: repeat;
+  border-radius: 8px;
+}
+
+:root {
+  --text: #444444;
+  --text-sub: #222222;
+  --none: #f0f0f0;
+  --g: #f0f0f0;
+  --t: #f0f0f0;
+  --m: #e8e8e8;
+  --e: #e0e0e0;
+  --ff: #f0f0f0;
+  --fm: #f0f0f0;
+  --gen: #f0f0f0;
+  --mm: #f0f0f0;
+  --other: #f0f0f0;
+  --multi: #e8e8e8;
+  --cntw: #e8e8e8;
+  --warn: #e8e8e8;
+  --ext: #e8e8e8;
+  --wip: #e8e8e8;
+  --fin: #e8e8e8;
+  --border-width: 1px;
+  --border-style: solid;
+  --border-radius: 5px;
+}
+
+.blurb .header:has(ul.required-tags) .heading {
+  margin-left: 0;
+}
+
+.blurb ul.required-tags,
+.blurb ul.required-tags li,
+.blurb ul.required-tags li a,
+.blurb ul.required-tags li span,
+.blurb ul.required-tags li + li + li,
+.blurb ul.required-tags li + li + li + li {
+  display: block;
+  position: unset;
+  width: unset;
+  height: unset;
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1;
+  color: var(--text);
+}
+
+.blurb ul.required-tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.3em;
+  margin-top: 0.35em;
+  margin-bottom: 0;
+}
+
+.blurb ul.required-tags > li > a > span.warnings,
+.blurb ul.required-tags > li > a > span:not(:is(.warning-yes,
+.warning-choosenotto))::before {
+  display: block;
+  margin-block: 0.15em;
+  padding-block: 0.25em;
+  padding-inline: 0.35em;
+  border-radius: var(--border-radius);
+  color: var(--text);
+  background: transparent !important;
+  border-width: var(--border-width);
+  border-style: var(--border-style);
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .warning-yes::before,
+.required-tags .rating-explicit::before {
+  color: var(--text-sub) !important;
+  font-weight: bold;
+}
+
+.blurb ul.required-tags > li > a > span:not(.warnings) > span.text {
+  display: none;
+}
+
+.index:not(.prompt) .blurb ul.required-tags > li:has(.warnings):not(:has(.warning-yes,
+.warning-choosenotto)),
+.index:not(.prompt) .blurb ul.required-tags > li > a > :is(.warning-yes,
+.warning-choosenotto) > span.text {
+  display: none;
+}
+
+.required-tags .warning-choosenotto {
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+}
+
+.index:not(.prompt) .required-tags .warning-choosenotto::before {
+  content: "No Warnings";
+  font-weight: bold;
+}
+
+.required-tags .warning-yes {
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+}
+
+.index:not(.prompt) .required-tags .warning-yes::before {
+  content: "Warnings";
+  font-weight: bold;
+}
+
+.required-tags .warning-no {
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+}
+
+.required-tags .external-work::before {
+  content: "External Work";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .complete-no[Title*="in Progress" i]::before {
+  content: "In Progress";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .complete-no[Title*="Unfulfilled" i]::before {
+  content: "Unfulfilled";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .complete-yes[Title*="Complete" i]::before {
+  content: "Complete";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .complete-yes[Title*="Filled" i]::before {
+  content: "Fulfilled";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category-femslash::before {
+  content: "F/F";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category-het::before {
+  content: "F/M";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category-gen::before {
+  content: "Gen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category-slash::before {
+  content: "M/M";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category-multi::before {
+  content: "Multi";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category-other::before {
+  content: "Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category-none::before {
+  content: "No Category";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i]::before {
+  content: "F/F, F/M";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="Gen" i]::before {
+  content: "F/F, Gen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i]::before {
+  content: "F/F, M/M";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="Other" i]::before {
+  content: "F/F, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/M" i][Title*="Gen" i]::before {
+  content: "F/M, Gen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i]::before {
+  content: "F/M, M/M";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/M" i][Title*="Other" i]::before {
+  content: "F/M, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="M/M" i][Title*="Gen" i]::before {
+  content: "M/M, Gen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="Gen" i][Title*="Other" i]::before {
+  content: "Gen, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="M/M" i][Title*="Other" i]::before {
+  content: "M/M, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i]::before {
+  content: "F/F, F/M, Gen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="M/M" i]::before {
+  content: "F/F, F/M, M/M";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Other" i]::before {
+  content: "F/F, F/M, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i][Title*="Gen" i]::before {
+  content: "F/F, M/M, Gen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/F, Gen, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i][Title*="Gen" i]::before {
+  content: "F/M, M/M, Gen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/M, Gen, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/F, M/M, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/M, M/M, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="Gen" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "M/M, Gen, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i][Title*="M/M" i]::before {
+  content: "F/F, F/M, M/M, Gen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/F, F/M, Gen, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/F, F/M, M/M, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/F, M/M, Gen, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/M, M/M, Gen, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/F, F/M, M/M, Gen, Other";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating-general-audience::before {
+  content: "Gen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating-teen::before {
+  content: "Teen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating-mature::before {
+  content: "Mature";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating-explicit::before {
+  content: "Explicit";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating-notrated::before {
+  content: "Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i]::before {
+  content: "Gen, Teen";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i]::before {
+  content: "Gen, Mature";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Explicit" i]::before {
+  content: "Gen, Explicit";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Not Rated" i]::before {
+  content: "Gen, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i]::before {
+  content: "Teen, Mature";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Explicit" i]::before {
+  content: "Teen, Explicit";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Not Rated" i]::before {
+  content: "Teen, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Mature, Explicit";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Mature, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Explicit, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Mature" i]::before {
+  content: "Gen, Teen, Mature";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Explicit" i]::before {
+  content: "Gen, Teen, Explicit";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Not Rated" i]::before {
+  content: "Gen, Teen, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Gen, Mature, Explicit";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Gen, Mature, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Teen, Mature, Explicit";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Teen, Mature, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Gen, Explicit, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Teen, Explicit, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Mature" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Mature, Explicit, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Gen, Teen, Mature, Explicit";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Gen, Teen, Mature, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Gen, Teen, Explicit, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Gen, Mature, Explicit, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Teen, Mature, Explicit, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Mature" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Gen, Teen, Mature, Explicit, Not Rated";
+  background: transparent !important;
+  border-color: #e0e0e0 !important;
+  font-weight: bold;
+}
+
+img[src$="/images/lockblue.png"] {
+  content: url("https://i.ibb.co/kVCsBwzY/zerafina-icon-lock-01.png");
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%);
+}
+
+.home .header h2 {
+  height: 80px;
+}
