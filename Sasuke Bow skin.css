@@ -211,9 +211,8 @@ a:link {
 }
 
 .news.index.group li.post.group {
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/square-bg.png");
-  background-size: 50x 50px;
-  background-repeat: repeat;
+  background: #eeeacc;
+  color: #4a4a6a;
   border: 2px solid #c5d8e8;
   border-radius: 8px;
   padding: .5em;
@@ -300,10 +299,8 @@ fieldset fieldset {
 }
 
 .javascript .filters fieldset {
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/square-bg.png");
-  background-repeat: repeat;
-  background-size: 50px 50px;
-  background-position: center;
+  background: #eeeacc;
+  color: #4a4a6a;
 }
 
 .filtering .filters #leave_filters {
@@ -487,9 +484,8 @@ dl.subscription.index.group {
 #main.users-change_email.dashboard.region dl,
 dl.meta,
 form dl {
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/square-bg.png");
-  background-size: auto;
-  background-repeat: repeat;
+  background: #eeeacc;
+  color: #4a4a6a;
   border: 1px solid #c5d8e8;
   border-radius: 8px;
   box-shadow: none;
@@ -568,9 +564,8 @@ li.comment {
 }
 
 .thread .even {
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/square-bg.png");
-  background-size: 50px 50px;
-  background-repeat: repeat;
+  background: #eeeacc;
+  color: #4a4a6a;
 }
 
 ol.comment.index.group .read {
@@ -579,10 +574,8 @@ ol.comment.index.group .read {
 }
 
 ol.comment.index.group .unread {
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/square-bg.png");
-  background-size: 50px 50px;
-  background-repeat: repeat;
-  color: #3a3a5a;
+  background: #eeeacc;
+  color: #4a4a6a;
 }
 
 .replied {
@@ -710,9 +703,8 @@ div.preface .module::after {
 
 #dashboard.own,
 .dashboard .own {
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/square-bg.png");
-  background-size: 50px 50px;
-  background-repeat: repeat;
+  background: #eeeacc;
+  color: #4a4a6a;
   border: 2px solid #c5d8e8;
   box-shadow: none;
 }
@@ -742,9 +734,8 @@ div.preface .module::after {
 
 .listbox,
 fieldset fieldset.listbox {
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/square-bg.png");
-  background-size: 50px 50px;
-  background-repeat: repeat;
+  background: #eeeacc;
+  color: #4a4a6a;
   border: 2px solid #c5d8e8;
   box-shadow: none;
 }
@@ -761,14 +752,12 @@ fieldset fieldset.listbox {
 }
 
 li.blurb {
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/square-bg.png");
-  background-size: 50px 50px;
-  background-repeat: repeat;
+  background: #eeeacc;
+  color: #4a4a6a;
   border: 2px solid #c5d8e8;
   border-radius: 8px;
   box-shadow: none;
   margin-bottom: 2em;
-  color: #4a4a6a;
 }
 
 form dt {
@@ -894,9 +883,8 @@ p.kudos::before {
 #workskin {
   margin-top: 2em;
   padding: 1.5em;
-  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/square-bg.png");
-  background-size: 50px 50px;
-  background-repeat: repeat;
+  background: #eeeacc;
+  color: #4a4a6a;
   border-radius: 8px;
 }
 
