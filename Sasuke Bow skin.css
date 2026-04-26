@@ -876,8 +876,12 @@ p.kudos::before {
   transform: translateY(-50%);
   width: 115px;
   height: 115px;
-  background: url("https://i.ibb.co/JSFR9w9/Miffy-3.png") no-repeat center center;
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/refs/heads/main/images/ssk-kudos.png") no-repeat center center;
   background-size: contain;
+}
+
+p.kudos a[href="/users/airively"] {
+  font-weight: bold;
 }
 
 #workskin {
