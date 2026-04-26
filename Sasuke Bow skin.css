@@ -521,20 +521,21 @@ form dl {
 
 img[src$="/images/skins/iconsets/default/icon_user.png"] {
   box-sizing: border-box;
-  content: url("https://i.ibb.co/k21bddpp/Miffy-4.jpg");
+  content: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/e9c556e977993433934e56b939ee2d780798f51f/images/ssk-comment-icon.png");
 }
 
 .index .skins .icon,
 .skins .primary .icon {
-  background: url("https://i.ibb.co/k21bddpp/Miffy-4.jpg");
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/e9c556e977993433934e56b939ee2d780798f51f/images/ssk-comment-icon.png");
   background-size: 55px 55px;
   background-repeat: no-repeat;
 }
 
 .comment .icon .visitor {
-  background: url("https://i.ibb.co/k21bddpp/Miffy-4.jpg");
-  background-size: 100px 100px;
+  background: url("https://raw.githubusercontent.com/airi-vely/ao3-skins/e9c556e977993433934e56b939ee2d780798f51f/images/ssk-comment-icon.png");
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .comment div.icon {
