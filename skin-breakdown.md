@@ -1,4 +1,4 @@
-<h3>Skin breakdown</h3>
+<h2>Skin breakdown</h2>
 
 **Layout & Background**
 - `html`, `body`, `body::before`, `body::after` — sets up the full-page background image and makes everything else sit on top of it transparently
