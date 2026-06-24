@@ -99,12 +99,4 @@
 - `p.kudos a[href="/users/airively"]` — bolds your own username in kudos lists
 
 **Text selection color**
-::selection {
-  background: #aac8a9 !important;
-  color: #57310D !important;
-}
-
-::-moz-selection {
-  background: #aac8a9 !important;
-  color: #57310D !important;
-}
+- `::selection`, `::-moz-selection` — text highlight color (green `#aac8a9` background, brown `#57310D` text)
