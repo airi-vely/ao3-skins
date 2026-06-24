@@ -97,3 +97,14 @@
 - `.actions a`, `button`, `input[type="submit"]` — all buttons sitewide
 - `span.question` — the little `?` help tooltip bubbles
 - `p.kudos a[href="/users/airively"]` — bolds your own username in kudos lists
+
+**Text selection color**
+::selection {
+  background: #aac8a9 !important;
+  color: #57310D !important;
+}
+
+::-moz-selection {
+  background: #aac8a9 !important;
+  color: #57310D !important;
+}
